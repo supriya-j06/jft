@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jajala Family Tree</title>
+
+<style>
+  body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom, #a0d8ff 0%, #ffffff 110%);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  /* 🌟 Sticky Header */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #004080;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  }
+
+  /* Back Arrow */
+  .back-arrow {
+    position: absolute;
+    left: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .back-arrow:hover {
+    transform: scale(1.2);
+    color: #cce0ff;
+  }
+
+  /* Titles */
+  h2 {
+    margin-top: 25px;
+    color: #003366;
+  }
+
+  /* Row Layout */
+  .generation {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+  }
+
+  /* Cards */
+  .card {
+    width: 230px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+  }
+
+  /* FULL IMAGE - NO CROP */
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;   /* full picture visible */
+    border-radius: 10px;
+    background: white;
+    padding: 5px;
+  }
+
+  /* Name text */
+  .name {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 2px 0;         /* reduce space between names */
+    color: #003366;
+  }
+</style>
+
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <span class="back-arrow" onclick="goHome()">&#8592;</span>
+</header>
+
+<script>
+function goHome() {
+  window.location.href = "index.html";
+}
+</script>
+
+<!-- FAMILY TREE -->
+
+<h3><i>Founders of Our Lineage</i></h3>
+<div class="generation">
+  <div class="card">
+    <img src="images/ggp.jpeg">
+    <p class="name">Jajala Narasimhulu</p>
+    <p class="name">Jajala Venkata Lakshumma</p>
+  </div>
+</div>
+
+<h3><i>Legacy Bearers</i></h3>
+<div class="generation">
+  <div class="card">
+    <img src="images/gp1.jpeg">
+    <p class="name">Jajala Subbaraidu</p>
+    <p class="name">Jajala Ratnama</p>
+  </div>
+
+  <div class="card">
+    <img src="images/gp2.jpeg">
+    <p class="name">Jajala Subbaramaiah</p>
+    <p class="name">Jajala Savithri</p>
+  </div>
+
+  <div class="card">
+    <img src="images/gp3.jpeg">
+    <p class="name">Jajala Narayana</p>
+    <p class="name">Jajala Vijaya Sri</p>
+  </div>
+</div>
+
+<h3>Life Creators</h3>
+<div class="generation">
+  <div class="card"><img src="images/p1.jpeg"><p class="name">Jajala Narasimhulu</p><p class="name">Jajala Lakshmi Prasanna</p></div>
+  <div class="card"><img src="images/p2.jpeg"><p class="name">Jajala Rajeswari</p><p class="name">R Ramana</p></div>
+  <div class="card"><img src="images/p3.jpeg"><p class="name">Jajala Sravan Kumar</p><p class="name">Jajala Vasantha</p></div>
+  <div class="card"><img src="images/p4.jpeg"><p class="name">Jajala Anand</p><p class="name">Jajala Bhavani</p></div>
+  <div class="card"><img src="images/p5.jpeg"><p class="name">Jajala Mohan</p><p class="name">Jajala Geetha</p></div>
+  <div class="card"><img src="images/p6.jpeg"><p class="name">Jajala Praveen Kumar</p></div>
+  <div class="card"><img src="images/p7.jpeg"><p class="name">Jajala Pranitha</p><p class="name">Lns Chandrakanth</p></div>
+</div>
+
+<h3>Future Carriers</h3>
+<div class="generation">
+  <div class="card"><img src="images/s1.jpeg"><p class="name">Jajala Lakshmi Supriya</p></div>
+  <div class="card"><img src="images/s2.jpeg"><p class="name">Jajala Bhargavi Sai Sree</p></div>
+  <div class="card"><img src="images/s3.jpeg"><p class="name">R Deekshitha</p></div>
+  <div class="card"><img src="images/s4.jpeg"><p class="name">R Sai Koushik </p></div>
+  <div class="card"><img src="images/s5.jpeg"><p class="name">Jajala Danu Sri</p></div>
+  <div class="card"><img src="images/s6.jpeg"><p class="name">Jajala Karthik</p></div>
+  <div class="card"><img src="images/s7.jpeg"><p class="name">Jajala Bharath</p></div>
+  <div class="card"><img src="images/s8.jpeg"><p class="name">Jajala Bhavya</p></div>
+  <div class="card"><img src="images/s9.jpeg"><p class="name">Jajala Yashika</p></div>
+  <div class="card"><img src="images/s10.jpeg"><p class="name">Jajala Thiyash</p></div>
+  <div class="card"><img src="images/s11.jpeg"><p class="name">Lns Ammulu</p></div>
+</div>
+
+</body>
+</html>

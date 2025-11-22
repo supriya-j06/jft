@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kids - Parent 7</title>
+
+<style>
+  body { 
+      font-family: Poppins; 
+      text-align: center; 
+      background: #f0faff; 
+      padding: 25px; 
+  }
+
+  h2 { color:#003366; }
+
+  .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+  }
+
+  .card {
+      width: 260px;
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      text-align: center;
+  }
+
+  img {
+      width: 100%;
+      height: 230px;
+      border-radius: 10px;
+      object-fit: cover;
+  }
+
+  .name { 
+      font-weight: bold;
+      margin-top: 10px;
+  }
+
+  .btn {
+      padding: 10px 20px;
+      background: #003366;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+  }
+
+  .btn:hover {
+      background: #0055aa;
+  }
+
+  footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+      background: rgba(0,0,0,0.06);
+      color: #003366;
+      font-weight: 600;
+}
+
+/* Back Arrow */
+  .back-arrow {
+    position: absolute;
+    left: 25px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .back-arrow:hover {
+    transform: scale(1.2);
+    color: #cce0ff;
+
+  }
+
+  
+</style>
+</head>
+
+<body>
+<div class="back-arrow" onclick="history.back()">⬅ Back</div>
+
+<h2>Kids of Jajala Pranitha & LNS Chandrakanth</h2>
+
+<div class="card-container">
+  <div class="card">
+    <img src="images/s11.jpeg">
+    <p class="name">LNS Ammulu</p>
+  </div>
+</div>
+
+<button class="btn" onclick="location.href='fjt.html'">Click Here</button>
+
+<footer>© 2025 Jajala Supriya — All Rights Reserved.</footer>
+
+</body>
+</html>

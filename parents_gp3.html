@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Parents - GP3</title>
+
+<style>
+  body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #f0f8ff, #ffffff);
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+
+  h1 {
+    color: #002f5e;
+    margin-bottom: 25px;
+  }
+
+   .card-container {
+    display: flex;
+    gap: 20px;           /* space between cards */
+    justify-content: center;
+    flex-wrap: wrap;     /* so it adjusts on mobile */
+}
+
+.card {
+    width: 260px;        /* set width so they align properly */
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .btn {
+    margin-top: 12px;
+    padding: 10px 15px;
+    border: none;
+    background: #003d80;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: #0066cc;
+}
+/* Back Arrow */
+  .back-arrow {
+    position: absolute;
+    left: 25px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .back-arrow:hover {
+    transform: scale(1.2);
+    color: #cce0ff;
+
+  }
+ footer{position:fixed;bottom:0;left:0;width:100%;text-align:center;padding:10px;background:rgba(0,0,0,0.06);color:#003366;font-weight:600;
+</style>
+</head>
+
+<body>
+<div class="back-arrow" onclick="history.back()">⬅ Back</div>
+
+<h1>Kids Of Jajala Narayana & Jajala Vijaya sri</h1>
+<div class="card-container">
+
+<!-- Parent 6 -->
+<div class="card">
+  <img src="images/p6.jpeg" alt="Parent 6">
+  <p class="name">Jajala Praveen Kumar</p>
+  <!--<button class="btn" onclick="location.href='kids_p6.html'">Click Here</button>-->
+</div>
+
+<!-- Parent 7 -->
+<div class="card">
+  <img src="images/p7.jpeg" alt="Parent 7">
+  <p class="name">Jajala Pranitha & LNS Chandrakanth</p>
+  <button class="btn" onclick="location.href='kids_p7.html'">Click Here</button>
+</div>
+</div>
+ <footer>© 2025 Jajala Supriya — All Rights Reserved.</footer>
+
+</body>
+</html>
